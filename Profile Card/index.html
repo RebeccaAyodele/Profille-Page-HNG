@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile Card</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="image-container">
+                <img src="/profilepicture.jpg" alt="profilepicture">
+            </div>
+            <div class="text" data-testid="profilePicture">
+                <h2 data-testid="fullName">Ayodele Rebecca Ayomide</h2>
+                <h3 data-testid="jobTitle">Frontend Developer</h3>
+            </div>
+        </div>
+
+        <div class="right">
+            <div data-testid="shortBio" class="bio">
+                    <p>
+                        I am a curious and driven individual who enjoys learning, creating, and solving probblems. I have a passion for technology, design, business innovation, always looking for ways to improve and grow.
+                    </p> 
+                    <p>
+                        Whether it's coding, exploring new ideas or taking on challenges, I thrive on continuous learning  and innovation. I'm also passionate about startups and business technology, excited by the potential to build impactful solutions and drive meaningful change.
+                    </p>
+            </div>
+            <p data-testid="currentLocation">Ife, Osun State</p>      <p data-testid="emailAddress"><a href="mailto:rebeccaayodele08@gmail.com">rebeccaayodele08@gmail.com</a></p>
+
+            <div class="social-links" data-testid="socialLinks">
+
+                <a href="https://www.linkedin.com/in/rebecca-ayodele-012065298"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+
+                <a href="https://github.com/RebeccaAyodele" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+
+                <a href="https://www.instagram.com/ayodelerebeccaayomide?igsh=OWJyMmkzdHUzM3A" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+
+                <a href="https://x.com/ayo31665?t=jQd-4RDFetwEqXWaVFcfXA&s=09" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+            </div>
+
+        
+
+            <p data-testid="currentTimeUTC" id="time">Loading...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
